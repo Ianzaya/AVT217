@@ -2,5 +2,26 @@
 /* CSS Document */
 
 body {
-	background-color: blueviolet;
+	background-color: lightgoldenrodyellow;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+		margin-left: 20%;
+			margin-right:10%;
+} 
+
+header{
+	background-color:honeydew;
+	padding-bottom: 20px;
+}
+
+li{
+	list-style: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+h2,h3{
+	color:darkolivegreen;
+}
+.posttime{color:#FFA810;
+
 }
