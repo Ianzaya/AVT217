@@ -8,12 +8,16 @@ h1{
 font-style: normal;*/
 }
 .weekly{
-		background-color:#099A10;
+		background-color:#50A52C;
 	width: 55%;
 		float:left;
+	border: dashed;
+	border-color:#2C7A2A;
 }
 #project{
-	background-color:#099A10;
+	border: dashed;
+	border-color:#2C7A2A;
+	background-color:#50A52C;
 	width: 55%;
 	float:right;
 }
