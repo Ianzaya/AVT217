@@ -27,7 +27,8 @@ font-style: normal;*/
 }
 body {
 	color:#FCE95F;
-	background-color:#50A52C;
+	/*background-color:#50A52C;*/
+	background-color: #FF0000;
 }
 	a:link {
 		color:#FEB8FF;
@@ -44,4 +45,5 @@ body {
 	a:active{
 		color:coral;
 	}
+
 	
