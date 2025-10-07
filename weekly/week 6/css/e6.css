@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container {
+	width:70%;
+	margin: 0 auto;
+	position: relative;
+}
+
+img{
+	width:100%;
+	height:auto;
+}
+
+.box1{
+	position: absolute;
+	right:5px;
+	bottom:auto;
+}
+.box2 {
+	position:fixed;
+	bottom:0;
+	left:40px;
+	background-color: antiquewhite;
+
+}
