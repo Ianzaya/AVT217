@@ -19,8 +19,38 @@ img{
 }
 .box2 {
 	position:fixed;
-	bottom:0;
+	top:0;
 	left:40px;
 	background-color: antiquewhite;
 
+}
+.box3{
+	position: relative;
+	padding-bottom: 20px;
+	height: auto;
+	background-color: chocolate;
+	
+
+}
+.box4{
+	position:static;
+	border-top: dotted;
+	border-bottom: groove;
+	border-bottom-color: hotpink;
+	top: auto;
+	right: 30px;
+	background-color: deeppink;
+	}
+.box5{
+	align-content: center;
+	float:right;
+	background-color: darkorchid;
+	border: solid;
+}
+.box6{
+	position: fixed;
+	color: darkolivegreen;
+	
+	
+	
 }
