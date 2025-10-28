@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/Happy Halloween.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+margin-top: 20vh;
+  }
+
+  p {
+    text-transform:uppercase;
+font-family: "Unbounded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+	   font-size: 100px;
+color: darkorange;
+}
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+background:url("../img/moblie img.png") no-repeat center center fixed;
+	  }
+	  
+	#container {
+    margin-top: 20vh;
+    }
+	   
+    p {
+		font-size: 100px;
+		text-transform: none;
+		color: darkorange;
+		
+	  }
+	  
+	#cursive {
+		color:mediumpurple;
+  	}
+	  
+    .mobile-only {
+display:block;    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+display: none;    }
+
+} /* don't forget to close the styles for mobile/
