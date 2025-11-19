@@ -2,28 +2,31 @@
 /* CSS Document */
 
 h1{
-	font-family: leida, sans-serif;
-	color: #FFD200;
-/*font-weight: 300;
-font-style: normal;*/
+	 font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 .weekly{
 		background-color:#50A52C;
-	width: 55%;
+	width: 45%;
 		float:left;
 	border: dashed;
 	border-color:#2C7A2A;
 }
 #project{
-	border: dashed;
+	border:dotted;
 	border-color:#2C7A2A;
 	background-color:#50A52C;
-	width: 55%;
+	width: 45%;
 	float:right;
+	height: auto;
 }
 #wrapper{
-	float: left;
-	padding: 0.5px;
+	float:left;
+	padding: 20px;
+	font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 body {
 	color:#FCE95F;
@@ -44,6 +47,4 @@ body {
 	a:active{
 		color:coral;
 	}
-
 	
-
